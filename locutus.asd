@@ -3,7 +3,8 @@
   :license "ISC"
   :author "Nyx"
   :depends-on ("dexador"
-               "com.inuoe.jzon")
+               "com.inuoe.jzon"
+               "trivial-package-local-nicknames")
   :components ((:module "src"
                 :compontents
                 ((:file "package")
