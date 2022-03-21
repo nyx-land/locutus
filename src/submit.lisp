@@ -81,6 +81,9 @@
     :initarg :duration
     :accessor duration)))
 
+(defun trim-url (url)
+  (subseq url 0 29))
+
 (defun make-scraper (url)
   (lquery:$ (initialize (dex:get url))))
 
