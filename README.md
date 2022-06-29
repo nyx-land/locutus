@@ -1,5 +1,7 @@
 # Locutus
-> Resistance is futile. Your metadata will be assimilated. This is a new common
+> Resistance is futile. Your metadata will be assimilated. 
+
+This is a new common
 lisp client for Musicbrainz. There's not much here yet, but it has some basic
 functionality like searching the MB database.
 
