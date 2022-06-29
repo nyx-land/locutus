@@ -3,9 +3,10 @@
   :license "ISC"
   :author "Nyx"
   :depends-on ("dexador"
+               "lquery"
                "com.inuoe.jzon"
                "trivial-package-local-nicknames")
   :components ((:module "src"
-                :compontents
+                :components
                 ((:file "package")
                  (:file "locutus")))))
