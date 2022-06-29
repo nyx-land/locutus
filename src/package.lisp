@@ -1,5 +1,6 @@
 (defpackage :locutus
   (:local-nicknames (:jzon :com.inuoe.jzon))
-  (:use :cl))
+  (:use :cl)
+  (:export :mb-search))
 
 (in-package :locutus)
